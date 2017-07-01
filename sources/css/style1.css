@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+body{
+  background-color: #373277;
+}
+.jumbotron {
+    background-color: #373277; /* Orange */
+    color: #f6f6f6;
+    padding: 150px 0px;
+  }
+
+  .round-frame{
+    width: 130px;
+    height: 130px;
+    border-radius:100%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+#center{
+  display: flex;
+  justify-content: center;
+}
+
+  .contact-links{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+
+.envelope{
+  font-size: 60px;
+}
+
+#mail:link, #mail:visited {
+  color: #f6f6f6;
+}
+
+.sectionA{
+  background-color: #1362d4;
+  color:#f6f6f6;
+  min-height: 770px;
+}
+
+.inside-container{
+  padding: 60px 50px;
+}
+
+.thumbcaptions{
+  color:black;
+}
+.sectionB{
+  color: #f6f6f6;
+  min-height: 770px;
+}
+.container-fluid {
+  padding: 0px 0px;
+}
+
+/*.bg-grey {
+  background-color: #f6f6f6;
+  }*/
+
+.logo{
+  font-size: 200px;
+  color: ;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    color:black;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.panel {
+    border: 1px solid #feb902;
+    border-radius:2px;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-body {
+  color: black;
+
+}
+
+.panel-footer {
+    background-color: #f4511e !important;
+    min-height: 90px !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: black;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
