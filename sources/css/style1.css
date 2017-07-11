@@ -7,7 +7,13 @@
 
 body{
   background-color: #373277;
+  font-size: 18px;
 }
+
+/*img{
+  margin: 10px;
+}*/
+
 .jumbotron {
     background-color: #373277; /* Orange */
     color: #f6f6f6;
@@ -49,12 +55,11 @@ body{
 }
 
 .inside-container{
+  min-height: 100%;
   padding: 60px 50px;
 }
 
-.thumbcaptions{
-  color:black;
-}
+
 .sectionB{
   color: #f6f6f6;
   min-height: 770px;
@@ -63,13 +68,18 @@ body{
   padding: 0px 0px;
 }
 
-/*.bg-grey {
-  background-color: #f6f6f6;
-  }*/
 
 .logo{
   font-size: 200px;
   color: ;
+}
+
+.sectionTitle{
+  height: 30%;
+}
+
+.projectsrow{
+  height: 70%;
 }
 
 .thumbnail {
@@ -77,13 +87,15 @@ body{
     border: none;
     border-radius: 0;
     color:black;
+    background-color: white;
 }
 
-.thumbnail img {
+.thumbnail {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
 }
+
 
 .panel {
     border: 1px solid #feb902;
