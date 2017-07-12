@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./sources/css/style1.css">
+  </head>
+  <body>
+  <!-- | Nav | NavBar  ====================================================== -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Carlos Castro</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#mybio">MY BIO</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#background">BACKGROUND</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- | A | Project Description  ====================================================== -->
+<div class="container-fluid text-center bg-grey sectionB slideanim slide">
+  <div class="inside-container">
+    <div class="row">
+      <div class="col-sm-5">
+        <img src="./sources/images/hangmanR.png" alt="">
+      </div>
+
+      <div class="col-sm-7">
+        <div class="titleBox text-center">
+            Hangman
+        </div>
+
+        <div class="description text-justify">
+            <p>
+              This is a simple hangman game with a list of cities in Germany.
+              As an elementary teacher, tt was hard to create a game with the
+              picture of a man being hanged. For that reason, I put an abstract
+              representation of a man. The man is a column of white rectangles
+              than turn bloody red each time the player misses a letter.
+            </p>
+            <br>
+
+            <p>
+              This was the first homework I built. At that time, I was upset
+              after learn Bootstrap. I thought Bootstrap might limit my ability
+               to create so I look for a design that were very hard to do with
+               Bootstrap. It was a little challenging to display the word
+               because my jQuery skills were very limited.
+            </p>
+            <br>
+
+            <p>
+              Each letter is displayed inside a pink div that matches the color
+              of the background.  Each pink div is displayed inside a white div.
+              The width of the white div is adjusted to accommodate the number
+              of letter in the word. I use CSS flex-box to equally distribute
+              the pink boxes and make the white div looks as a bookcase.
+            </p>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
