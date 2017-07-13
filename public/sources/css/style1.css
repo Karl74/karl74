@@ -185,6 +185,15 @@ body{
     visibility: visible;
 }
 
+a:link, a:visited{
+  color:#f4511e;
+}
+
+a:hover, a:active{
+  color:#373277;
+  background-color: #f4511e;
+}
+
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
     0% {
