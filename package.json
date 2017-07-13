@@ -1,0 +1,26 @@
+{
+  "name": "karl74",
+  "version": "1.0.1",
+  "description": "My personal profile as a UT bootcamp graduate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karl74/karl74.git"
+  },
+  "author": "Karl74",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karl74/karl74/issues"
+  },
+  "homepage": "https://github.com/Karl74/karl74#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
+  }
+}
