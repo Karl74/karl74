@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contct Report</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>All contacts</h1>
+    <br>
+    <table id="report">
+        <tr>
+          <th>Date</th>
+          <th>Name</th>
+          <th>E-mail</th>
+          <th>Comments</th>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+      $.get("/api/admin/search/allcontacts", function(data){
+        console.log(data);
+        for(i=0; i<data.length; i++){
+          var rowForContact = $("<tr>");
+          var tdDate = $("<td>");
+          var tdName = $("<td>");
+          var tdEmail = $("<td>");
+          var tdComments = $("<td>");
+
+          tdDate.html(data[i].date);
+          tdName.html(data[i].Name);
+          tdEmail.html(data[i].Email);
+          tdComments.html(data[i].Comment);
+
+          $("#report").append(rowForContact,[tdDate, tdName, tdEmail, tdComments]);
+        }
+      });//End of ajax call
+
+
+    </script>
+  </body>
+</html>
