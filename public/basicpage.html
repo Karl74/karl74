@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Single Page Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/sources/css/style1.css">
+    </head>
+  <body>
+  <!-- | Nav | NavBar  ====================================================== -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Carlos Castro</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/#mybio">MY BIO</a></li>
+          <li><a href="/#projects">PORTFOLIO</a></li>
+<!-- this reference takes the view into a higher position in the document to compansate the animation -->
+          <li><a href="/#background">BACKGROUND</a></li>
+          <li><a href="/#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- | A | Project Description  ====================================================== -->
+<div class="container-fluid text-center bg-grey sectionB slideanim slide">
+  <div class="inside-container">
+    <div class="row">
+      <div class="col-sm-5">
+        <a href="https://karl74.github.io/basicPage/" target="_blank">
+          <img src="/sources/images/basicpageR.png" alt="basicpage Screen shot">
+        </a>
+        <label for="img">Click on the picture to open the app</label>
+      </div>
+
+      <div class="col-sm-7">
+        <div class="titleBox text-center">
+            Single Page Website
+        </div>
+
+        <div class="description text-justify">
+            <p>
+              My idea with this project was to create a website for any small organization like a community park, a church or a book club. A group like this has very basic information that can be fitted in one page, but it the user can understand better if the information presented in one section at a time. My idea was to put all the organization data (including the titles of the menus) in a json object. In this way the code can be re-used for a different organization with a minimum effort. I am still working on the project because I want to add the image references to the json object too. This will make the page transformation even faster.    
+            </p>
+            <br>
+            <p>
+             I came with this project after a long period of inactivity in coding. I wanted to strength my skills and understand better how React and CSS Grid work. From that perspective I am very satisfied with the result because I proved myself that I can built things with coding. 
+            </p>
+            <br>
+             The major challenge on this project was to understand how children components can communicate with their parents by passing functions as a props. My code still needs some improvements on that area. I am confident that I will come with a better version very soon.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

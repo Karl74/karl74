@@ -24,4 +24,10 @@ router.get("/allmycontacts", function(req, res){
   res.sendFile(path.join(__dirname, "../public/report.html"));
 });
 
+router.get("/basicPage",(req, res)=>
+	res.sendFile(path.join(__dirname, "../public/basicpage.html")));
+
+router.get("/inter",(req, res)=>
+	res.sendFile(path.join(__dirname, "../public/inter.html")));
+
 module.exports = router;
