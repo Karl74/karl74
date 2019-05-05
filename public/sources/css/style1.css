@@ -169,6 +169,7 @@ body{
 }
 
 .navbar-default .navbar-toggle {
+    float:left;
     border-color: transparent;
     color: #fff !important;
 }
